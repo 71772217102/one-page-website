@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>store</title>
+    <style>
+        header{
+            background-color: black;
+            color:white;
+            display:flex;
+            justify-content: space-between;
+        }
+        .one{
+            
+            list-style-type: none;
+            display:flex;
+        }
+        .one li a{
+        color:white;
+        text-decoration: none;
+        margin-left: 35px;
+        font-size: 30px;
+        }
+        .two {
+            list-style-type: none;
+            display: none;
+        }
+        
+        .one li a:hover{
+            color:cyan;
+        }
+        .one li:hover .two{
+        display: block;
+        }
+        .two li a{
+            display: block;
+        }
+        h2{
+            text-align: center;
+            font-size: 40px;
+            color: maroon;
+        } 
+        h3{
+            text-align: center;
+            font-size: 30px;
+        }
+        p{
+            margin-top: 95px;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            padding:10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HAPPY STORE</h1>
+        <ul class="one">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a>
+                <ul class="two">
+                    <li><a href="../javascript/men.html">Men & women collections</a></li>
+                    <li><a href="../javascript/kids.html">Kids collections</a></li>
+                    <li><a href="../javascript/home.html">Home appliances</a></li>
+                    <li><a href="../javascript/cos.html">Cosmetics &Jewelry</a></li>
+                </ul>
+            </li>
+            <li><a href="../javascript/contact.html">Contact</a>
+               
+            </li>
+        </ul>
+    </header>
+    <h2>Welcome</h2>
+        <h3>"Discover Your Unseen Passion"</h3>
+
+    <img src="../images/shop.jpg" height="300px"  width="100%">
+    <p>Created by Abarna</p>
+</body>
+</html>
